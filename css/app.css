@@ -2,6 +2,7 @@ html,
 body {
 	height: 100%;
 	background-color: #100324; 
+	font-family:"Open-sans", sans-serif;
 
 }
 #home{
@@ -13,19 +14,31 @@ body {
 	background-color :#070111;
 	color : white;
 }
+
 #homeName {
 	color :#48326C;
 }
-body {
-	/*
-	padding-top:76px;
-	Color scheme:
-	Bg : #100324;
-	Text: white;
-	Text highlight: 48326C;
-	*/
-	font-family:"Open-sans", sans-serif;
+#aboutMe{
+	color: white;
 }
+#aboutInfoContainer{
+	background-color :#070111;
+
+}
+#aboutInfo a{
+	color :#48326C;
+}
+#aboutInfo {
+	color: white;
+	font-size: 0.9rem;
+}
+/*
+#aboutMeHeader{
+
+}
+*/
+
+
 /*
 NavBar stuff
 */
@@ -36,17 +49,18 @@ color :#1E0C3B;
 color :#100324;
 color :#070111;
 }
-.mainNavBar .scrolled{
+
+.scrolled{
 	
    background-color: #100324;
-   background: #100324;
    border-color: #100324;
 }
 #mainNavBar .nav-link{
 	color: white;
 }
+
 #mainNavBar .nav-link:hover{
-	color :#48326C;
+	color :rgb(89, 67, 126);
 }
 
 #home{
