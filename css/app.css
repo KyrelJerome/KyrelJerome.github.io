@@ -8,12 +8,15 @@ body {
 }
 #home{
 	background-color: #081947;
-	background-image: url("../Assets/background2.png");
+	background-image: url("../Assets/background.jpg");
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
 	height: 100%; 
+	text-align:center;
+	color: white;
 }
+
 #homeHeader{
 	background-color :#081947;
 	color : white;
@@ -80,7 +83,7 @@ old Scheme
 color: white; /*Normal text*/
 color :#48326C; /* Text highlight*/
 color :#321C55; /* main background  */
-color :#1E0C3B; /
+color :#1E0C3B; 
 color :#100324;
 color :#070111;/*  Secondary Background */
 }
@@ -98,11 +101,7 @@ color :#070111;/*  Secondary Background */
 	color :rgb(89, 67, 126);
 }
 
-#home{
-	text-align:center;
-	color: white;
-	background-color: #100324; 
-}
+
 .navResume{
 	justify-self: right;
 }
