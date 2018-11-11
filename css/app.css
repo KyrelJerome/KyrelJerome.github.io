@@ -1,43 +1,50 @@
 html, 
 body {
 	height: 100%;
-	background-color: #100324; 
+	background-color: #081947;
+	
 	font-family:"Open-sans", sans-serif;
 
 }
 #home{
-	background-color: #100324; 
-	background-image: url("../Assets/background.png");
+	background-color: #081947;
+	background-image: url("../Assets/background2.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
 	height: 100%; 
 }
 #homeHeader{
-	background-color :#070111;
+	background-color :#081947;
 	color : white;
 }
 
 #homeName {
-	color :#48326C;
+	color :#EBA002;
 }
 #aboutMe{
 	color: white;
 }
 #aboutInfoContainer{
-	background-color :#070111;
+	background-color :#040E2A;
 
 }
 #aboutInfo a{
-	color :#48326C;
+	color :#EBA002;
 }
 #aboutInfo {
 	color: white;
 	font-size: 0.9rem;
 }
+#skills{
+	color: white;
+}
 #skillsContainer{
-	background-color :#070111;
+	background-color :#040E2A;
 
 }
 #skillsInfo a{
-	color :#48326C;
+	color :#EBA002;
 }
 #skillsInfo {
 	color: white;
@@ -54,11 +61,28 @@ body {
 NavBar stuff
 */
 #colorScheme{
-color :#48326C;
-color :#321C55;
-color :#1E0C3B;
+	/* As hex codes */
+
+color: #17991F;/* Main Primary color */
+color: #B6D4B8;
+color: #4FB756;
+color: #007307;
+color: #003E04;
+
+color: #C3211D;	/* Main Complement color */
+color: #FFDCDB;
+color: #E86865;
+color: #4F0200;
+color: #920400;
+	/*
+old Scheme
+*/
+color: white; /*Normal text*/
+color :#48326C; /* Text highlight*/
+color :#321C55; /* main background  */
+color :#1E0C3B; /
 color :#100324;
-color :#070111;
+color :#070111;/*  Secondary Background */
 }
 
 .scrolled{
