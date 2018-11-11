@@ -21,9 +21,16 @@ body {
 	background-color :#081947;
 	color : white;
 }
-
+#sectionHeaderText{
+	color: white;
+	font-size: 2rem;
+}
+#sectionHeaderContainer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 #homeName {
-	color :#EBA002;
+	color :#E69C00;
 }
 #aboutMe{
 	color: white;
@@ -33,7 +40,7 @@ body {
 
 }
 #aboutInfo a{
-	color :#EBA002;
+	color :#E69C00;
 }
 #aboutInfo {
 	color: white;
@@ -47,11 +54,33 @@ body {
 
 }
 #skillsInfo a{
-	color :#EBA002;
+	color :#E69C00;
 }
 #skillsInfo {
 	color: white;
 	font-size: 0.9rem;
+}
+#projectCard{
+	background-color :#040E2A;
+	color: white;
+}
+#projectCardHeader{
+	color:#E69C00 ;
+}
+#projectCardFooter{
+	color: white;
+}
+#projectCardText{
+	background-color :#040E2A;
+	color: white;
+}
+#contactMe{
+	background-color: #040E2A;
+	padding-bottom: 0;
+	margin-bottom:0;
+}
+#contactData{
+	color :#E69C00;
 }
 /*
 #aboutMeHeader{
@@ -59,34 +88,6 @@ body {
 }
 */
 
-
-/*
-NavBar stuff
-*/
-#colorScheme{
-	/* As hex codes */
-
-color: #17991F;/* Main Primary color */
-color: #B6D4B8;
-color: #4FB756;
-color: #007307;
-color: #003E04;
-
-color: #C3211D;	/* Main Complement color */
-color: #FFDCDB;
-color: #E86865;
-color: #4F0200;
-color: #920400;
-	/*
-old Scheme
-*/
-color: white; /*Normal text*/
-color :#48326C; /* Text highlight*/
-color :#321C55; /* main background  */
-color :#1E0C3B; 
-color :#100324;
-color :#070111;/*  Secondary Background */
-}
 
 .scrolled{
 	
@@ -96,12 +97,34 @@ color :#070111;/*  Secondary Background */
 #mainNavBar .nav-link{
 	color: white;
 }
-
 #mainNavBar .nav-link:hover{
 	color :rgb(89, 67, 126);
 }
-
-
 .navResume{
 	justify-self: right;
 }
+/*
+#colorScheme{
+/ Main Primary color
+ green red
+color: #17991F;
+color: #B6D4B8;
+color: #4FB756;
+color: #007307;
+color: #003E04;
+
+color: #C3211D;	
+color: #FFDCDB;
+color: #E86865;
+color: #4F0200;
+color: #920400;
+
+purple!
+color: white; /Normal text
+color :#48326C; /Text highlight
+color :#321C55;  main background  
+color :#1E0C3B; 
+color :#100324;
+color :#070111;  Secondary Background 
+}
+*/
