@@ -46,6 +46,9 @@ body {
 	color: white;
 	font-size: 0.9rem;
 }
+#aboutInfo span{
+	color :#E69C00;
+}
 #skills{
 	color: white;
 }
@@ -56,6 +59,7 @@ body {
 #skillsInfo a{
 	color :#E69C00;
 }
+
 #skillsInfo {
 	color: white;
 	font-size: 0.9rem;
