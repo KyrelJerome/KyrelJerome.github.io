@@ -1,0 +1,59 @@
+html, 
+body {
+	height: 100%;
+	background-color: #100324; 
+
+}
+#home{
+	background-color: #100324; 
+	background-image: url("../Assets/background.png");
+	height: 100%; 
+}
+#homeHeader{
+	background-color :#070111;
+	color : white;
+}
+#homeName {
+	color :#48326C;
+}
+body {
+	/*
+	padding-top:76px;
+	Color scheme:
+	Bg : #100324;
+	Text: white;
+	Text highlight: 48326C;
+	*/
+	font-family:"Open-sans", sans-serif;
+}
+/*
+NavBar stuff
+*/
+#colorScheme{
+color :#48326C;
+color :#321C55;
+color :#1E0C3B;
+color :#100324;
+color :#070111;
+}
+.mainNavBar .scrolled{
+	
+   background-color: #100324;
+   background: #100324;
+   border-color: #100324;
+}
+#mainNavBar .nav-link{
+	color: white;
+}
+#mainNavBar .nav-link:hover{
+	color :#48326C;
+}
+
+#home{
+	text-align:center;
+	color: white;
+	background-color: #100324; 
+}
+.navResume{
+	justify-self: right;
+}
