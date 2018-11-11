@@ -32,6 +32,17 @@ body {
 	color: white;
 	font-size: 0.9rem;
 }
+#skillsContainer{
+	background-color :#070111;
+
+}
+#skillsInfo a{
+	color :#48326C;
+}
+#skillsInfo {
+	color: white;
+	font-size: 0.9rem;
+}
 /*
 #aboutMeHeader{
 
