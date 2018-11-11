@@ -21,7 +21,7 @@
 
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top " id="mainNavbar">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top " id="mainNavBar">
         <a class="navbar-brand pl-2" href="#">
             <img src="assets/Kurik.png" width="50" height="50" alt="Profile Photo" class="rounded-circle">
             KJ
@@ -175,7 +175,7 @@
 
                             </ul>
                         </div>
-                        <div class="col-6 border-right border-top ">
+                        <div class="col-6 border-right pt-2  border-top ">
                             <h4></i>Software</h4>
                             <ul class="text-left" id="skillsInfo">
                                 <li>
@@ -192,7 +192,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-6 border-left border-top">
+                        <div class="col-6 border-left pt-2 border-top">
                             <h4>Soft Skills</h4>
                             <ul class="text-left" id="skillsInfo">
                                 <li>
@@ -322,14 +322,7 @@
         </div>
     </section>
 
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            })
-        })
-    </script>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -338,6 +331,14 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+        <script>
+                $(function () {
+                    $(document).scroll(function () {
+                        var $nav = $("#mainNavBar");
+                        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                    })
+                })
+            </script>
 </body>
 
 

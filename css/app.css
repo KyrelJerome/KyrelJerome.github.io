@@ -93,10 +93,9 @@ body {
 */
 
 
-.scrolled{
-	
-   background-color: #100324;
-   border-color: #100324;
+.navBar.scrolled{
+   background: #081947;
+   transition-duration: 500ms;
 }
 #mainNavBar .nav-link{
 	color: white;
