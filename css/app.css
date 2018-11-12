@@ -1,10 +1,15 @@
-html, 
+html,
 body {
 	height: 100%;
 	background-color: #081947;
-	
 	font-family:"Open-sans", sans-serif;
 
+}
+body{
+	overflow-x:hidden;
+}
+#buttonResume{
+	color: #E69C00;
 }
 #home{
 	background-color: #081947;
@@ -101,7 +106,7 @@ body {
 	color: white;
 }
 #mainNavBar .nav-link:hover{
-	color :rgb(89, 67, 126);
+	color:#E69C00;
 }
 .navResume{
 	justify-self: right;
