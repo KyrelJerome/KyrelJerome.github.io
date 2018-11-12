@@ -8,7 +8,7 @@ body {
 body{
 	overflow-x:hidden;
 }
-#buttonResume{
+#button-resume:hover{
 	color: #E69C00;
 }
 #home{
