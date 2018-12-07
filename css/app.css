@@ -1,19 +1,22 @@
 html,
 body {
 	height: 100%;
-	background-color: #081947;
+	background: var(--primary-bg-color);
 	font-family:"Open-sans", sans-serif;
 
 }
 body{
 	overflow-x:hidden;
 }
+#button-resume{
+	color: #000000;
+}
 #button-resume:hover{
-	color: #E69C00;
+	color:var(--highlighted-text-color);
 }
 #home{
-	background-color: #081947;
-	background-image: url("../Assets/background.jpg");
+	background: var(--primary-bg-color);
+	/*background-image: url("../Assets/background.jpg");*/
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
@@ -23,7 +26,7 @@ body{
 }
 
 #homeHeader{
-	background-color :#081947;
+	background-color :var(--secondary-bg-color);
 	color : white;
 }
 #sectionHeaderText{
@@ -31,35 +34,38 @@ body{
 	font-size: 2rem;
 }
 #sectionHeaderContainer{
+	background-color :var(--secondary-bg-color);
+	border-color: #000000;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 #homeName {
-	color :#E69C00;
+	color:var(--highlighted-text-color);
 }
 #aboutMe{
 	color: white;
 }
 #aboutInfoContainer{
-	background-color :#040E2A;
-
+	background-color :var(--secondary-bg-color);
+	border-color: #000000;
 }
 #aboutInfo a{
-	color :#E69C00;
+	color:var(--highlighted-text-color);
 }
 #aboutInfo {
+	border-color: #000000;	
 	color: white;
 	font-size: 0.9rem;
 }
 #aboutInfo span{
-	color :#E69C00;
+	color:var(--highlighted-text-color);
 }
 #skills{
 	color: white;
 }
 #skillsContainer{
-	background-color :#040E2A;
-
+	background-color :var(--secondary-bg-color);
+	border-color: #000000;
 }
 #skillsInfo a{
 	color :#E69C00;
@@ -70,26 +76,28 @@ body{
 	font-size: 0.9rem;
 }
 #projectCard{
-	background-color :#040E2A;
+	border-color: #000000;
+	margin-top: 10px;
+	background-color :var(--secondary-bg-color);
 	color: white;
 }
 #projectCardHeader{
-	color:#E69C00 ;
+	color:#000000;
 }
 #projectCardFooter{
 	color: white;
 }
 #projectCardText{
-	background-color :#040E2A;
+	background-color :var(--secondary-bg-color);
 	color: white;
 }
 #contactMe{
-	background-color: #040E2A;
+	background-color: var(--secondary-bg-color);
 	padding-bottom: 0;
 	margin-bottom:0;
 }
 #contactData{
-	color :#E69C00;
+	color:var(--highlighted-text-color);
 }
 /*
 #aboutMeHeader{
@@ -97,20 +105,33 @@ body{
 }
 */
 
-
 .navBar.scrolled{
-   background: #081947;
+   background: var(--header-bg-color);
    transition-duration: 500ms;
 }
+#mainNavBar{
+	color: #000000;
+}
 #mainNavBar .nav-link{
-	color: white;
+	font-size: 1.18	rem;
+	color: #000000;	
 }
 #mainNavBar .nav-link:hover{
-	color:#E69C00;
+	color:var(--highlighted-text-color);
 }
 .navResume{
 	justify-self: right;
 }
+:root {
+	--primaryt-bg-color: #546e7a;
+	--secondary-bg-color: #5c7148;
+	--primary-bg-color: #3a492c;
+
+	--header-bg-color: #475c66;
+	--header-text-color: #000000;
+	--github-icon-color:  
+	--highlighted-text-color:#E69C00;
+  }
 /*
 #colorScheme{
 / Main Primary color
