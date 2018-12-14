@@ -3,11 +3,17 @@ body {
 	height: 100%;
 	background: var(--primary-bg-color);
 	font-family:"Open-sans", sans-serif;
-
+	font-size: 1.15rem;
 }
 body{
 	overflow-x:hidden;
 }
+h2{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	
+}
+
 #button-resume{
 	color: #000000;
 }
@@ -22,19 +28,19 @@ body{
 	background-size: cover; /* Resize the background image to cover the entire container */
 	height: 100%; 
 	text-align:center;
-	color: white;
+	color: var(--primary-text-color);
 }
 
 #homeHeader{
 	background-color :var(--secondary-bg-color);
-	color : white;
+	color : var(--primary-text-color);
 }
 #sectionHeaderText{
-	color: white;
+	color: var(--primary-text-color);
 	font-size: 2rem;
 }
 #sectionHeaderContainer{
-	background-color :var(--secondary-bg-color);
+	background-color :var(--prima	ry-bg-color);
 	border-color: #000000;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -43,7 +49,7 @@ body{
 	color:var(--highlighted-text-color);
 }
 #aboutMe{
-	color: white;
+	color: var(--primary-text-color);
 }
 #aboutInfoContainer{
 	background-color :var(--secondary-bg-color);
@@ -54,14 +60,14 @@ body{
 }
 #aboutInfo {
 	border-color: #000000;	
-	color: white;
+	color: var(--primary-text-color);
 	font-size: 0.9rem;
 }
 #aboutInfo span{
 	color:var(--highlighted-text-color);
 }
 #skills{
-	color: white;
+	color: var(--primary-text-color);
 }
 #skillsContainer{
 	background-color :var(--secondary-bg-color);
@@ -72,27 +78,29 @@ body{
 }
 
 #skillsInfo {
-	color: white;
+	color: var(--primary-text-color);
 	font-size: 0.9rem;
+}
+#projectCardWrapper{
+	margin-bottom: 10px;
 }
 #projectCard{
 	border-color: #000000;
-	margin-top: 10px;
 	background-color :var(--secondary-bg-color);
-	color: white;
+	color: var(--primary-text-color);
 }
 #projectCardHeader{
 	color:#000000;
 }
 #projectCardFooter{
-	color: white;
+	color: var(--primary-text-color);
 }
 #projectCardText{
 	background-color :var(--secondary-bg-color);
-	color: white;
+	color: var(--primary-text-color);
 }
 #contactMe{
-	background-color: var(--secondary-bg-color);
+	background-color: var(--primary-bg-color);
 	padding-bottom: 0;
 	margin-bottom:0;
 }
@@ -122,16 +130,25 @@ body{
 .navResume{
 	justify-self: right;
 }
+hr{
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
 :root {
 	--primaryt-bg-color: #546e7a;
 	--secondary-bg-color: #5c7148;
-	--primary-bg-color: #3a492c;
-
+	--primary-bg-color: white;
+	--primary-text-color: #FFFFFF;
 	--header-bg-color: #475c66;
 	--header-text-color: #000000;
 	--github-icon-color:  
 	--highlighted-text-color:#E69C00;
   }
+/* Old colour scheme
+--primaryt-bg-color: #546e7a;
+*/
 /*
 #colorScheme{
 / Main Primary color
