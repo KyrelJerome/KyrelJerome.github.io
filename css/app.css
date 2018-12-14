@@ -33,18 +33,13 @@ h2{
 
 #homeHeader{
 	background-color :var(--secondary-bg-color);
-	color : var(--primary-text-color);
+	color : var(--header-text-color);
 }
 #sectionHeaderText{
-	color: var(--primary-text-color);
+	color: var(--header-text-color);
 	font-size: 2rem;
 }
-#sectionHeaderContainer{
-	background-color :var(--prima	ry-bg-color);
-	border-color: #000000;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
+
 #homeName {
 	color:var(--highlighted-text-color);
 }
@@ -143,8 +138,8 @@ hr{
 	--primary-text-color: #FFFFFF;
 	--header-bg-color: #475c66;
 	--header-text-color: #000000;
-	--github-icon-color:  
-	--highlighted-text-color:#E69C00;
+	--github-icon-color:  ;
+	--highlighted-text-color: rgb(0, 0, 0);
   }
 /* Old colour scheme
 --primaryt-bg-color: #546e7a;
