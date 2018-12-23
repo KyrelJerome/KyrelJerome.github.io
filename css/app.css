@@ -104,6 +104,7 @@ body{
 }
 #mainNavBar .nav-link{
 	color: white;
+	size: 0.8rem;
 }
 #mainNavBar .nav-link:hover{
 	color:#E69C00;
