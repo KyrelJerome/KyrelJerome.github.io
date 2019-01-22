@@ -1,17 +1,18 @@
 <html>
-<head>
-<!-- Description tags-->
-<meta name="title" content="Kyrel Jerome">
-<meta name="description" content="Personal website of Kyrel Jerome, a software developer and student at the University of Toronto.">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129047214-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-129047214-1');
-</script>
+<head>
+    <!-- Description tags-->
+    <meta name="title" content="Kyrel Jerome">
+    <meta name="description" content="Personal website of Kyrel Jerome, a software developer and student at the University of Toronto.">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129047214-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129047214-1');
+    </script>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -30,6 +31,7 @@
         crossorigin="anonymous">
     <title> Kyrel Jerome</title>
 </head>
+
 <body>
     <nav class="navbar navbar-dark navbar-expand-md fixed-top " id="mainNavBar">
         <a class="navbar-brand pl-2" href="#">
@@ -66,7 +68,7 @@
                     </i>Contact Me </a>
             </div>
             <div class="col-3 nav-item justify-content-right" id="navResume">
-                <a href="/Assets/KyrelJeromeResume.pdf" class="btn btn-outline-light" id= "button-resume">
+                <a href="/Assets/KyrelJeromeResume.pdf" class="btn btn-outline-light" id="button-resume">
                     Resume
                 </a>
             </div>
@@ -76,9 +78,9 @@
     <section class="container-full-bg row m-0 px-0 justify-content-center align-items-center text-center" id="home">
         <div class="col py-2" id="homeHeader">
             <div>
-                <h2 class= "display-5">Hi, I'm</h3>
-                <h1 class="display-4"><span class="display-3" id="homeName">Kyrel Jerome</span></h1>
-                <h2 class="display-5 ">Front-End Developer</h1>
+                <h2 class="display-5">Hi, I'm</h3>
+                    <h1 class="display-4"><span class="display-3" id="homeName">Kyrel Jerome</span></h1>
+                    <h2 class="display-5 ">Front-End Developer</h1>
             </div>
         </div>
     </section>
@@ -92,35 +94,38 @@
                             <h4><i class="fas fa-gamepad "></i></h4>
                             <p id="aboutInfo">An avid gamer, I love games such as
                                 League of Legends, Starcraft, and Super Smash Bros Ultimate. I'm currently
-                                making my own game engine: 
+                                making my own game engine:
                                 <a href="https://github.com/KyrelJerome/ProjectAlpha">Project Alpha</a>.
                             </p>
                         </div>
                         <div class="col-6 border-left border-bottom">
                             <h4><i class="fas fa-mobile"></i></h4>
                             <p id="aboutInfo">
-                                I've spent 2 years learning Mobile Application development, with <span>3 ongoing projects</span>.
-                             </p>
+                                I've spent 2 years learning Mobile Application development, with <span>3 ongoing
+                                    projects</span>.
+                            </p>
                         </div>
                         <div class="col-6 border-right border-top pt-3">
                             <h4><i class="fas fa-chalkboard-teacher"></i></h4>
                             <p id="aboutInfo">
                                 Great teachers have both inspired and enabled me.
-                                I'm currently the Lead Computer Programming Mentor of <a href="https://www.spartanrobotics.ca">FRC Team 5288 The Spartans.</a>
+                                I'm currently the Lead Computer Programming Mentor of <a href="https://www.spartanrobotics.ca">FRC
+                                    Team 5288 The Spartans.</a>
                             </p>
                         </div>
                         <div class="col-6 border-left border-top pt-3">
                             <h4><i class="fas fa-book"></i></h4>
                             <p id="aboutInfo">
                                 Due to my passion for game development, mobile application development,
-                                and robotics I'm completing my second year of Computer Science at the <a href="https://www.utoronto.ca/">  University of
-                                Toronto</a>
+                                and robotics I'm completing my second year of Computer Science at the <a href="https://www.utoronto.ca/">
+                                    University of
+                                    Toronto</a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
     <section class="container-full-bg m-0 pt-3" id="skills">
@@ -260,15 +265,42 @@
                     <div class="row justify-content-center" id=projectCardWrapper">
                         <div class="col-10 rounded mx-4" id="projectCard">
                             <div class="text-center">
-                                <h5 class=" pt-3 " id="projectCardHeader">Kure-Polynomial-Graphing-Engine</h5>
+                                <h5 class=" pt-3 " id="projectCardHeader">Teacher's Pet</h5>
+                            </div>
+                            <img class="img-fluid mb-3  rounded" id="projectCardImage" src="Assets/teachers-pet.jpg"
+                                alt="Card image cap">
+                            <div class="text-center ">
+                                <p class="">
+                                    Created at UofTHacks IV, Teacher's Pet is a tool for blind presenter's of any sort,
+                                    focussing on professors and classrooms. Teacher's Pet detects hands raised in the
+                                    audience
+                                    using Microsoft Azure, and notifies the presenter through a Flutter App by
+                                    vibrating.
+                                </p>
+                                <p>
+                                    <a href="https://github.com/SmitRao/UofT-Hacks-2019" class=" display-4 mt-auto mb-2">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-s-12 col-md-6 mx-0 my-4 px-0">
+                    <div class="row justify-content-center" id=projectCardWrapper">
+                        <div class="col-10 rounded mx-4" id="projectCard">
+                            <div class="text-center">
+                                <h5 class=" pt-3 " id="projectCardHeader">Kure: Polynomial-Graphing-Engine</h5>
                             </div>
                             <img class="img-fluid mb-3  rounded" id="projectCardImage" src="https://raw.githubusercontent.com/KyrelJerome/Kure-Polynomial-Graphing-Engine/master/Docs/Polynomial.PNG"
                                 alt="Card image cap">
                             <div class="text-center ">
                                 <p class="">
-                                    A Java program that graphs a given function using Graphics2D. The program allows for
-                                        graphing of all polynomial functions,
-                                        and viewing of said graphs.
+                                    A Java program that graphs a given function using Graphics2D. The program
+                                    allows for
+                                    graphing of all polynomial functions,
+                                    and viewing of said graphs.
                                 </p>
                                 <p>
                                     <a href="https://github.com/KyrelJerome/Kure-Polynomial-Graphing-Engine" class=" display-4 mt-auto mb-2">
@@ -286,7 +318,7 @@
         <div class="row justify-content-center" id="sectionHeaderContainer">
             <div class="col-8">
                 <h2 id="sectionHeaderText">
-                    Contact me
+                    Contact Me
                 </h2>
             </div>
         </div>
@@ -320,7 +352,6 @@
         </div>
     </section>
 
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -329,14 +360,14 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-        <script>
-                $(function () {
-                    $(document).scroll(function () {
-                        var $nav = $("#mainNavBar");
-                        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                    })
-                })
-            </script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavBar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            })
+        })
+    </script>
 </body>
 
 
